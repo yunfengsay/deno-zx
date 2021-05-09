@@ -1,0 +1,27 @@
+{
+  "name": "dzx",
+  "version": "0.0.1",
+  "description": "A tool for writing better scripts",
+  "main": "index.djs",
+  "types": "index.d.ts",
+  "bin": {
+    "dzx": "dzx.djs"
+  },
+  "scripts": {
+    "test": "node dzx.djs test.djs"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "node-fetch": "^2.6.1",
+    "shq": "^1.0.2",
+    "uuid": "^8.3.2"
+  },
+  "files": [
+    "*.djs",
+    "*.js",
+    "*.d.ts"
+  ],
+  "repository": "yunfengsay/deno-zx",
+  "author": "yunfengzhang.zyf <fdoctor00@gmail.com>",
+  "license": "MIT"
+}
